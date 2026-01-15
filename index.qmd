@@ -1,0 +1,16 @@
+---
+title: "Machine Learning For Dummies"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+# How Do Machines Actually *Learn*?
+
+!["Machines Learning" - generated with ChatGPT5](ChatGPT5_robotStudents.png){fig-align="center"}
