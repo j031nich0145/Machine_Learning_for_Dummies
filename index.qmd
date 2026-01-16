@@ -1,6 +1,6 @@
 ---
 title: "Understanding How Machines Actually Learn"
-author: "Joel Peterson; with formatting help & images by ChatGPT5"
+author: "Joel Peterson; with formatting help & images via ChatGPT5"
 date: "2026-01-15"
 ---
 
@@ -15,7 +15,7 @@ Machines such as computers cannot learn information in the same sense that a hum
 | | |
 |---|---|
 | ![](CharGPT5_deepThink.png) | ![](CharGPT5_deepThink2.png) |
-| *"Processing..."* | *"Compute...Beep Boop"* |
+| *"Compute..."* | *"Processing...Beep Boop"* |
 
 When someone refers to 'Machine Learning' they are referring to a mathematical model used to predict an outcome based on previous 'training' data. The fundamental process works like this:
 
@@ -29,7 +29,11 @@ These processes for machine learning are performed by taking a cleaned data-set 
 
 After the prediction is complete it is scored based on how accurate it was. The degree of inaccuracy is considered the amount of 'error'. The computer then runs through thousands or millions of iterations while adjusting the initial mathematical model's parameters to reduce the amount of error. This process is called a 'loss function' within the process of 'fitting' a model.
 
-There are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right.
+!["Baby Steps: ... Error - Adjustment - Improvement ... Error - Adjustment - Improvement ..."](robotBabySteps.png){fig-align="center"} 
+
+There are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right. Another analogy would be to think of a toddler learning to walk: it starts with clumsy, random movements, stumbling and falling. Each time it falls, it adjusts its weight distribution and stride slightly. After numerous of attempts, it finds the optimal balance and coordination where it moves smoothly with minimal wobbling. The 'error' is each stumble, and the model keeps tweaking until it reaches that sweet spot of perfect stability.
+
+
 
 
 ## Avoiding Overfitting and Underfitting
