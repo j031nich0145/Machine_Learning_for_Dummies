@@ -1,16 +1,51 @@
 ---
-title: "Machine Learning For Dummies"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+title: "Understanding How Machines Actually Learn"
+author: "Joel Peterson; with formatting help & images by ChatGPT5"
+date: "2026-01-15"
 ---
 
-# How Do Machines Actually *Learn*?
+!["Machine School"](ChatGPT5_robotStudents.png){fig-align="center"}
 
-!["Machines Learning" - generated with ChatGPT5](ChatGPT5_robotStudents.png){fig-align="center"}
+## What Exactly Is Machine Learning?
+
+Machines such as computers cannot learn information in the same sense that a human brain does. There is no actual understanding, intuition, or knowledge of information; only mathematical processes. Machine learning is widely used for practical tasks that you're already familiar with, such as determining spam emails, detecting credit card fraud, weather forecasts based on historical data, and facial recognition on your cell phone.
+
+## How Does A Machine Actually Learn From Data?
+
+| | |
+|---|---|
+| ![](CharGPT5_deepThink.png) | ![](CharGPT5_deepThink2.png) |
+| *"Processing..."* | *"Compute...Beep Boop"* |
+
+When someone refers to 'Machine Learning' they are referring to a mathematical model used to predict an outcome based on previous 'training' data. The fundamental process works like this:
+
+**Data Preparation**
+
+These processes for machine learning are performed by taking a cleaned data-set in the format of a table with columns and rows, then splitting it into 2 parts: one for training, and one for testing.
+
+![](robotData_table.png){fig-align="center"}
+
+**Model Training and Optimization**
+
+After the prediction is complete it is scored based on how accurate it was. The degree of inaccuracy is considered the amount of 'error'. The computer then runs through thousands or millions of iterations while adjusting the initial mathematical model's parameters to reduce the amount of error. This process is called a 'loss function' within the process of 'fitting' a model.
+
+There are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right.
+
+
+## Avoiding Overfitting and Underfitting
+
+There is also a risk of training the model too poorly or too well on the training data—this is called 'underfitting' and 'overfitting'. The problem with this is that the training data is only a sample of the data set and the model needs to be able to perform well on new unseen data, not just memorize patterns in the training data.
+
+This can be related to studying for a test. If you happen to get an answer sheet and just memorize the answers you will certainly do well on that test, but if the questions and answers are revised for the same test your success will be based on random luck without having an actual understanding of the material.
+
+## Cross-Validation for Better Model Performance
+
+Because the size of the training data is limited, an optimization technique called 'cross-validation' is often used. This effectively splits the training data again into training and 'validation' parts, where the model is trained on the training part and scored on the validation part before applied to the testing section of data.
+
+Cross validation is performed a chosen number of times with different splits of the training data. For each 'cross' in the cross-validation, the training data is split again using different parts for training and for validation. This greatly helps to optimize the model and reduce error for the best performance on new, unseen data.
+
+## Limitations and Reality
+
+The efficacy of machine learning is based on the ability of the model to optimize for data for which it was not trained on and comes with an inherent set of limitations. The models are fundamentally pattern-matchers: they excel when new data resembles their training data, but can fail unpredictably when given new situations.
+
+So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don't truly 'learn' or 'understand'—they find statistical patterns.

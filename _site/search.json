@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Machine Learning For Dummies",
+    "title": "Understanding How Machines Actually Learn",
     "section": "",
-    "text": "How Do Machines Actually Learn?\n\n\n\n“Machines Learning” - generated with ChatGPT5\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 15, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 12, 2026\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+    "text": "“Machine School”"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -33,5 +33,40 @@
     "title": "Machine Learning For Dummies",
     "section": "",
     "text": "“Machines Learning” - generated with ChatGPT5"
+  },
+  {
+    "objectID": "index.html#what-exactly-is-machine-learning",
+    "href": "index.html#what-exactly-is-machine-learning",
+    "title": "Understanding How Machines Actually Learn",
+    "section": "What Exactly Is Machine Learning?",
+    "text": "What Exactly Is Machine Learning?\nMachines such as computers cannot learn information in the same sense that a human brain does. There is no actual understanding, intuition, or knowledge of information; only mathematical processes. Machine learning is widely used for practical tasks that you’re already familiar with, such as determining spam emails, detecting credit card fraud, weather forecasts based on historical data, and facial recognition on your cell phone."
+  },
+  {
+    "objectID": "index.html#how-does-a-machine-actually-learn-from-data",
+    "href": "index.html#how-does-a-machine-actually-learn-from-data",
+    "title": "Understanding How Machines Actually Learn",
+    "section": "How Does A Machine Actually Learn From Data?",
+    "text": "How Does A Machine Actually Learn From Data?\n\n\n\n\n\n\n\n“Processing…”\n“Compute…Beep Boop”\n\n\n\nWhen someone refers to ‘Machine Learning’ they are referring to a mathematical model used to predict an outcome based on previous ‘training’ data. The fundamental process works like this:\nData Preparation\nThese processes for machine learning are performed by taking a cleaned data-set in the format of a table with columns and rows, then splitting it into 2 parts: one for training, and one for testing.\n\n\n\n\n\nModel Training and Optimization\nAfter the prediction is complete it is scored based on how accurate it was. The degree of inaccuracy is considered the amount of ‘error’. The computer then runs through thousands or millions of iterations while adjusting the initial mathematical model’s parameters to reduce the amount of error. This process is called a ‘loss function’ within the process of ‘fitting’ a model.\nThere are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right."
+  },
+  {
+    "objectID": "index.html#avoiding-overfitting-and-underfitting",
+    "href": "index.html#avoiding-overfitting-and-underfitting",
+    "title": "Understanding How Machines Actually Learn",
+    "section": "Avoiding Overfitting and Underfitting",
+    "text": "Avoiding Overfitting and Underfitting\nThere is also a risk of training the model too poorly or too well on the training data—this is called ‘underfitting’ and ‘overfitting’. The problem with this is that the training data is only a sample of the data set and the model needs to be able to perform well on new unseen data, not just memorize patterns in the training data.\nThis can be related to studying for a test. If you happen to get an answer sheet and just memorize the answers you will certainly do well on that test, but if the questions and answers are revised for the same test your success will be based on random luck without having an actual understanding of the material."
+  },
+  {
+    "objectID": "index.html#cross-validation-for-better-model-performance",
+    "href": "index.html#cross-validation-for-better-model-performance",
+    "title": "Understanding How Machines Actually Learn",
+    "section": "Cross-Validation for Better Model Performance",
+    "text": "Cross-Validation for Better Model Performance\nBecause the size of the training data is limited, an optimization technique called ‘cross-validation’ is often used. This effectively splits the training data again into training and ‘validation’ parts, where the model is trained on the training part and scored on the validation part before applied to the testing section of data.\nCross validation is performed a chosen number of times with different splits of the training data. For each ‘cross’ in the cross-validation, the training data is split again using different parts for training and for validation. This greatly helps to optimize the model and reduce error for the best performance on new, unseen data."
+  },
+  {
+    "objectID": "index.html#limitations-and-reality",
+    "href": "index.html#limitations-and-reality",
+    "title": "Understanding How Machines Actually Learn",
+    "section": "Limitations and Reality",
+    "text": "Limitations and Reality\nThe efficacy of machine learning is based on the ability of the model to optimize for data for which it was not trained on and comes with an inherent set of limitations. The models are fundamentally pattern-matchers: they excel when new data resembles their training data, but can fail unpredictably when given new situations.\nSo despite its power, machine learning is a tool and not a replacement for human judgment. Machines don’t truly ‘learn’ or ‘understand’—they find statistical patterns."
   }
 ]

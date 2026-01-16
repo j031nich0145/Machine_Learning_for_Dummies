@@ -1,21 +1,18 @@
 project:
   type: website
+  output-dir: _site
 
 website:
-  title: "ML for Dummies"
+  title: "Machine Learning for Dummies"
   navbar:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/j031nich0145/Machine_Learning_for_Dummies
+
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
-
-editor: visual
-
+      light: cosmo
+      dark: darkly
+    toc: true
