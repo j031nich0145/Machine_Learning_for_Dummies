@@ -1,10 +1,10 @@
 ---
 title: "Understanding How Machines Actually Learn"
-author: "Joel Peterson; with formatting help & images via ChatGPT5"
+author: "**Joel Peterson** with formatting help via ChatGPT5"
 date: "2026-01-15"
 ---
 
-!["Machine School"](ChatGPT5_robotStudents.png){fig-align="center"}
+!["Machine School" - generated using ChatGPT5](ChatGPT5_robotStudents.png){fig-align="center"}
 
 ## What Exactly Is Machine Learning?
 
@@ -15,7 +15,8 @@ Machines such as computers cannot learn information in the same sense that a hum
 | | |
 |---|---|
 | ![](CharGPT5_deepThink.png) | ![](CharGPT5_deepThink2.png) |
-| *"Compute..."* | *"Processing...Beep Boop"* |
+| *"Compute..."* | *"Processing...Beep Boop"* | 
+_-images generated using ChatGPT5_
 
 When someone refers to 'Machine Learning' they are referring to a mathematical model used to predict an outcome based on previous 'training' data. The fundamental process works like this:
 
@@ -29,18 +30,18 @@ These processes for machine learning are performed by taking a cleaned data-set 
 
 After the prediction is complete it is scored based on how accurate it was. The degree of inaccuracy is considered the amount of 'error'. The computer then runs through thousands or millions of iterations while adjusting the initial mathematical model's parameters to reduce the amount of error. This process is called a 'loss function' within the process of 'fitting' a model.
 
-!["Baby Steps: ... Error - Adjustment - Improvement ... Error - Adjustment - Improvement ..."](robotBabySteps.png){fig-align="center"} 
+!["Error => Adjustment => Improvement => Repeat" - generated using ChatGPT5](robotBabySteps.png){fig-align="center"} 
 
 There are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right. Another analogy would be to think of a toddler learning to walk: it starts with clumsy, random movements, stumbling and falling. Each time it falls, it adjusts its weight distribution and stride slightly. After numerous of attempts, it finds the optimal balance and coordination where it moves smoothly with minimal wobbling. The 'error' is each stumble, and the model keeps tweaking until it reaches that sweet spot of perfect stability.
 
 
-
-
 ## Avoiding Overfitting and Underfitting
 
-There is also a risk of training the model too poorly or too well on the training data—this is called 'underfitting' and 'overfitting'. The problem with this is that the training data is only a sample of the data set and the model needs to be able to perform well on new unseen data, not just memorize patterns in the training data.
+There is also a risk of training the model too poorly or too well on the training data—this is called 'under-fitting' and 'over-fitting'. The problem with this is that the training data is only a sample of the data set and the model needs to be able to perform well on new unseen data, not just memorize patterns in the training data. This can be related to studying for a test. If you happen to get an answer sheet and just memorize the answers you will certainly do well on that test, but if the questions and answers are revised for the same test your success will be based on random luck without having an actual understanding of the material. 
 
-This can be related to studying for a test. If you happen to get an answer sheet and just memorize the answers you will certainly do well on that test, but if the questions and answers are revised for the same test your success will be based on random luck without having an actual understanding of the material.
+![](test_train_maze.png){fig-align="center"}
+
+Or say that you memorize a maze so well that you can be blindfolded and run through the maze without hitting any obstacles or running into a wall - this means your knowledge would be 'over-fit' to that specific maze. Now if you try to blindly run through a new maze using the same memorization of the first one, you'll almost definitely 'run into' some obstacles. The same idea could be applied if you haphazardly memorized the first maze and then tried to blindfolded run through - you'll likely 'run into' obstacles in the first maze, as well as all subsequent attempts at trying to navigate new mazes as well - in the latter  instance you would have 'under-fit' your training on the initial maze.
 
 ## Cross-Validation for Better Model Performance
 
