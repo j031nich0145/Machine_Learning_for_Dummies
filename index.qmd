@@ -12,17 +12,18 @@ Machines such as computers cannot learn information in the same sense that a hum
 
 ## How Does A Machine Actually Learn From Data?
 
-| | |
-|---|---|
+|                             |                              |
+|-----------------------------|------------------------------|
 | ![](CharGPT5_deepThink.png) | ![](CharGPT5_deepThink2.png) |
-| *"Compute..."* | *"Processing...Beep Boop"* | 
-_-images generated using ChatGPT5, GIMP_
+| *"Compute..."*              | *"Processing...Beep Boop"*   |
+
+*-images generated using ChatGPT5, GIMP*
 
 When someone refers to 'Machine Learning' they are referring to a mathematical 'model', or set of equations, used to predict an outcome based on previous 'training' data. The fundamental process works like this:
 
 ### **Data Preparation**
 
-These processes for machine learning are performed by taking a 'cleaned' data-set in the format of a table with columns and rows, then splitting it into 2 parts: one for training, and one for testing. The 'cleaning' of data refers to the uniformity of the table values, ensuring that each column contains the same data-types, each row has the same amount of columns, unusual characters and empty cells are handled in a relevant way, which is the decision of the data-scientist working with the specific data set. In data science a row is called an 'example' and a column is a 'feature' of that example, with the individual cells being the 'observations'. There are a number of method used to clean, 'preprocess', and 'encode' data to improve the performance and help facilitate the best outcome for the model. 
+These processes for machine learning are performed by taking a 'cleaned' data-set in the format of a table with columns and rows, then splitting it into 2 parts: one for training, and one for testing. The 'cleaning' of data refers to the uniformity of the table values, ensuring that each column contains the same data-types, each row has the same amount of columns, unusual characters and empty cells are handled in a relevant way, which is the decision of the data-scientist working with the specific data set. In data science a row is called an 'example' and a column is a 'feature' of that example, with the individual cells being the 'observations'. There are a number of method used to clean, 'preprocess', and 'encode' data to improve the performance and help facilitate the best outcome for the model.
 
 The **'Golden Rule of Machine Learning'** is to **never** allow any training processes to cross-pollinate and access the test data. This will render all results untrustworthy with overly-optimistic scores as they've had a 'peek' at the test.
 
@@ -32,14 +33,13 @@ The **'Golden Rule of Machine Learning'** is to **never** allow any training pro
 
 After the prediction is complete it is scored based on how accurate it was. The degree of inaccuracy is considered the amount of 'error'. The computer then runs through thousands or millions of iterations while adjusting the initial mathematical model's parameters to reduce the amount of error. This process is called a 'loss function' within the process of 'fitting' a model.
 
-!["Error => Adjustment => Improvement => Repeat" - generated using ChatGPT5, GIMP](robotBabySteps.png){fig-align="center"} 
+!["Error ➡ Adjustment ➡ Improvement ➡ Repeat" - generated using ChatGPT5, GIMP](robotBabySteps.png){fig-align="center"}
 
 There are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right. Another analogy would be to think of a toddler learning to walk: it starts with clumsy, random movements, stumbling and falling. Each time it falls, it adjusts its weight distribution and stride slightly. After numerous of attempts, it finds the optimal balance and coordination where it moves smoothly with minimal wobbling. The 'error' is each stumble, and the model keeps tweaking until it reaches that sweet spot of stability.
 
-
 ## Avoiding Overfitting and Underfitting
 
-There is also a risk of training the model too poorly or too well on the training data. This is called 'under-fitting' and 'over-fitting'. The problem with this is that the training data is only a sample of the data set and the model needs to be able to perform well on new unseen data, not just memorize patterns in the training data. This can be related to studying for a test. If you happen to get an answer sheet and just memorize the answers you will certainly do well on that test, but if the questions and answers are revised for the same test your success will be based on random luck without having an actual understanding of the material. 
+There is also a risk of training the model too poorly or too well on the training data. This is called 'under-fitting' and 'over-fitting'. The problem with this is that the training data is only a sample of the data set and the model needs to be able to perform well on new unseen data, not just memorize patterns in the training data. This can be related to studying for a test. If you happen to get an answer sheet and just memorize the answers you will certainly do well on that test, but if the questions and answers are revised for the same test your success will be based on random luck without having an actual understanding of the material.
 
 ![](test_train_maze.png){fig-align="center"}
 
@@ -57,6 +57,6 @@ Cross validation is performed a chosen number of times, specified by 'k', with d
 
 The efficacy of machine learning is based on the ability of the model to optimize for data for which it was not trained on and comes with an inherent set of limitations. The models are fundamentally pattern-matchers: they excel when new data resembles their training data, but can fail unpredictably when given new situations. A spam filter may not be up-to-date with the latest tactics and phishing methods, or may produce 'False Negatives' by incorrectly flagging non-spam emails. Historical weather data may not account for overall climate change and have difficulty being able to adapt and predict today's weather based on older data. A facial recognition system may be primarily trained on one demographic and fail to recognize patterns when presented with a different one, or be easily fooled by visual tricks.
 
-!["'Training Data' VS data in 'The Wild'" -generated using ChatGPT5, GIMP](TrainingWorld_RealWorld.png){fig-align="center"}
+!["*Training Data* VS data in *The Wild*" -generated using ChatGPT5, GIMP](Training_VS_RealWorld.png){fig-align="center"}
 
-This also presents the fundamental limitation of machine learning, which is the data itself. **Garbage in equals garbage out**. Data can be messy, inaccurate, and biased, which leads to poor, misleading, or completely incorrect results. So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don't truly 'learn' or 'understand'—they find statistical patterns.
+This also presents the fundamental limitation of machine learning, which is the data itself. **Garbage in equals garbage out**. Data can be messy, inaccurate, and biased, which leads to poor, misleading, or completely incorrect results. So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don't truly 'learn' or 'understand' they just find statistical patterns.

@@ -7,34 +7,6 @@
     "text": "“Machine School” - generated using ChatGPT5, GIMP"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "index.html#how-do-machines-actually-learn",
-    "href": "index.html#how-do-machines-actually-learn",
-    "title": "Machine Learning For Dummies",
-    "section": "",
-    "text": "“Machines Learning” - generated with ChatGPT5"
-  },
-  {
     "objectID": "index.html#what-exactly-is-machine-learning",
     "href": "index.html#what-exactly-is-machine-learning",
     "title": "Understanding How Machines Actually Learn",
@@ -68,5 +40,26 @@
     "title": "Understanding How Machines Actually Learn",
     "section": "Limitations and Reality",
     "text": "Limitations and Reality\nThe efficacy of machine learning is based on the ability of the model to optimize for data for which it was not trained on and comes with an inherent set of limitations. The models are fundamentally pattern-matchers: they excel when new data resembles their training data, but can fail unpredictably when given new situations. A spam filter may not be up-to-date with the latest tactics and phishing methods, or may produce ‘False Negatives’ by incorrectly flagging non-spam emails. Historical weather data may not account for overall climate change and have difficulty being able to adapt and predict today’s weather based on older data. A facial recognition system may be primarily trained on one demographic and fail to recognize patterns when presented with a different one, or be easily fooled by visual tricks.\n\n\n\n“‘Training Data’ VS data in ‘The Wild’” -generated using ChatGPT5, GIMP\n\n\nThis also presents the fundamental limitation of machine learning, which is the data itself. Garbage in equals garbage out. Data can be messy, inaccurate, and biased, which leads to poor, misleading, or completely incorrect results. So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don’t truly ‘learn’ or ‘understand’—they find statistical patterns."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]
