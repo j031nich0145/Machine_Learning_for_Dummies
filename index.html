@@ -373,7 +373,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="robotBabySteps.png" class="img-fluid figure-img"></p>
-<figcaption>“Error =&gt; Adjustment =&gt; Improvement =&gt; Repeat” - generated using ChatGPT5, GIMP</figcaption>
+<figcaption>“Error ➡ Adjustment ➡ Improvement ➡ Repeat” - generated using ChatGPT5, GIMP</figcaption>
 </figure>
 </div>
 <p>There are many different machine learning models and loss functions, and different models and loss functions are applied to different problems when asking or exploring different questions. The model eventually settles when it has found the optimal settings with the lowest error. Think of this as a chef cooking a meal and constantly tasting then adjusting the salt and spices until the ratios are just right. Another analogy would be to think of a toddler learning to walk: it starts with clumsy, random movements, stumbling and falling. Each time it falls, it adjusts its weight distribution and stride slightly. After numerous of attempts, it finds the optimal balance and coordination where it moves smoothly with minimal wobbling. The ‘error’ is each stumble, and the model keeps tweaking until it reaches that sweet spot of stability.</p>
@@ -405,11 +405,11 @@ ul.task-list li input[type="checkbox"] {
 <p>The efficacy of machine learning is based on the ability of the model to optimize for data for which it was not trained on and comes with an inherent set of limitations. The models are fundamentally pattern-matchers: they excel when new data resembles their training data, but can fail unpredictably when given new situations. A spam filter may not be up-to-date with the latest tactics and phishing methods, or may produce ‘False Negatives’ by incorrectly flagging non-spam emails. Historical weather data may not account for overall climate change and have difficulty being able to adapt and predict today’s weather based on older data. A facial recognition system may be primarily trained on one demographic and fail to recognize patterns when presented with a different one, or be easily fooled by visual tricks.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="TrainingWorld_RealWorld.png" class="img-fluid figure-img"></p>
-<figcaption>“‘Training Data’ VS data in ‘The Wild’” -generated using ChatGPT5, GIMP</figcaption>
+<p><img src="Training_VS_RealWorld.png" class="img-fluid figure-img"></p>
+<figcaption>“<em>Training Data</em> VS data in <em>The Wild</em>” -generated using ChatGPT5, GIMP</figcaption>
 </figure>
 </div>
-<p>This also presents the fundamental limitation of machine learning, which is the data itself. <strong>Garbage in equals garbage out</strong>. Data can be messy, inaccurate, and biased, which leads to poor, misleading, or completely incorrect results. So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don’t truly ‘learn’ or ‘understand’—they find statistical patterns.</p>
+<p>This also presents the fundamental limitation of machine learning, which is the data itself. <strong>Garbage in equals garbage out</strong>. Data can be messy, inaccurate, and biased, which leads to poor, misleading, or completely incorrect results. So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don’t truly ‘learn’ or ‘understand’ they just find statistical patterns.</p>
 
 
 </section>
@@ -501,7 +501,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/j031nich0145\.github\.io\/Machine_Learning_for_Dummies\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
