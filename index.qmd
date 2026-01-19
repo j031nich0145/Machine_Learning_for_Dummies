@@ -4,7 +4,7 @@ author: "**Joel Peterson** with formatting help via ChatGPT5"
 date: "2026-01-15"
 ---
 
-!["Machine School" - generated using ChatGPT5, GIMP](ChatGPT5_robotStudents.png){fig-align="center"}
+!["Machine School" - generated using ChatGPT5, GIMP](robotStudents.png){fig-align="center"}
 
 ## What Exactly Is Machine Learning?
 
@@ -57,6 +57,6 @@ Cross validation is performed a chosen number of times, specified by 'k', with d
 
 The efficacy of machine learning is based on the ability of the model to optimize for data for which it was not trained on and comes with an inherent set of limitations. The models are fundamentally pattern-matchers: they excel when new data resembles their training data, but can fail unpredictably when given new situations. A spam filter may not be up-to-date with the latest tactics and phishing methods, or may produce 'False Negatives' by incorrectly flagging non-spam emails. Historical weather data may not account for overall climate change and have difficulty being able to adapt and predict today's weather based on older data. A facial recognition system may be primarily trained on one demographic and fail to recognize patterns when presented with a different one, or be easily fooled by visual tricks.
 
-!["*Training Data* VS data in *The Wild*" -generated using ChatGPT5, GIMP](Training_VS_RealWorld.png){fig-align="center"}
+!["*Training Data* VS data in *The Wild*" -generated using ChatGPT5, GIMP](realWorld.png){fig-align="center"}
 
 This also presents the fundamental limitation of machine learning, which is the data itself. **Garbage in equals garbage out**. Data can be messy, inaccurate, and biased, which leads to poor, misleading, or completely incorrect results. So despite its power, machine learning is a tool and not a replacement for human judgment. Machines don't truly 'learn' or 'understand' they just find statistical patterns.
